@@ -9,7 +9,7 @@
  {alert ("ingresaste una clave valida");
  alert ("su reserva es aceptada");
  let nombre= prompt("ingrese su nombre y apellido")
- alert ("lo esperam@s a partir de las 21 hs")
+ alert ("l@ esperam@s a partir de las 21 hs" +" " +  nombre)
 } 
   else {alert("ingresaste una clave incorrecto. Hasta la proxima semana");}
 
