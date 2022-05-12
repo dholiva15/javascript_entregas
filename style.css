@@ -1,0 +1,53 @@
+
+
+#grilla{
+
+display: grid;
+grid-template-columns: 50% 50%;
+grid-template-rows: 300px 400px 400px;
+grid-template-areas: "titulo titulo"
+"card1 card2" 
+"card3 card4";
+
+}
+
+.titulo{
+    grid-area: titulo;
+    background-color: lightblue;
+    font-size: 200px;
+    align-items: center;
+    align-content: center;
+    font-size: 100px;
+    column-gap: 5%;
+}
+
+.card1{
+    grid-area: card1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card2{
+    grid-area: card2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.card3{
+    grid-area: card3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.card4{
+    grid-area: card4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
